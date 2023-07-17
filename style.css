@@ -311,6 +311,7 @@ figure {
     position: absolute;
     top: 0;
     left: 0;
+    text-align: center;
 }
 
 /* .card:hover .card__img {
