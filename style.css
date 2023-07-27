@@ -131,6 +131,11 @@ section {
     padding: 2rem;
 }
 
+#contact {
+    color: white;
+    background-color: var(--blue);
+}
+
 .hr--light {
     background-image: url("img/hr_light.png");
     background-position: center;
@@ -218,7 +223,7 @@ section {
 }
 
 .section__heading {
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 1px solid;
     margin-bottom: 1em;
     flex-basis: 100%;
 }
@@ -251,8 +256,13 @@ figure {
 }
 
 .section__split--small img {
-    width: 50%;
+    width: auto;
+    max-height: 22rem;
     margin: 0 auto;
+}
+
+#products {
+    background-image: linear-gradient(white, #677f9808);
 }
 
 .card-container {
@@ -274,6 +284,8 @@ figure {
     box-shadow: var(--blue) 0px 2px 8px -2px;
     transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
     position: relative;
+    color: var(--black);
+    background-color: white;
 }
 
 .card:hover {
