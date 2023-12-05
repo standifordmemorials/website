@@ -33,7 +33,7 @@ header {
 
 .branding {
     font-size: 2rem;
-    height: 2rem;
+    height: 3rem;
 }
 
 .branding__logo {
@@ -148,7 +148,7 @@ section {
 
 .banner {
     position: relative;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 10rem);
 }
 
 .banner__content {
@@ -175,7 +175,7 @@ section {
 }
 
 .banner__heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-bottom: 0.5rem;
     font-weight: lighter;
     width: 100%;
@@ -525,7 +525,7 @@ footer {
     }
 
     .banner {
-        height: calc(100vh - 2rem);
+        height: calc(100vh - 7rem);
     }
 
     .banner__text {
