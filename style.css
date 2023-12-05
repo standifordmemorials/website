@@ -226,6 +226,7 @@ section {
     border-bottom: 1px solid;
     margin-bottom: 1em;
     flex-basis: 100%;
+    font-size: 2rem;
 }
 
 .section__split--large,
