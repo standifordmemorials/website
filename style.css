@@ -2,6 +2,7 @@
     --blue: #677f98;
     --black: #0a2038;
     --red: #d33f49;
+    font-size: 20px;
 }
 
 * {
@@ -457,6 +458,10 @@ footer {
 }
 
 @media screen and (min-width: 880px) {
+    :root {
+        font-size: 18px;
+    }
+
     .banner__text {
         width: 80%;
         margin: 0 auto;
@@ -480,6 +485,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+    :root {
+        font-size: 16px;
+    }
+
     header {
         flex-flow: row wrap;
         justify-content: center;
