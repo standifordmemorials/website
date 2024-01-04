@@ -2,7 +2,6 @@
     --blue: #677f98;
     --black: #0a2038;
     --red: #d33f49;
-    font-size: 20px;
 }
 
 * {
@@ -535,7 +534,7 @@ footer {
     }
 
     .banner {
-        height: calc(100vh - 7rem);
+        height: calc(100vh - 5rem);
     }
 
     .banner__text {
