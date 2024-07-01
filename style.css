@@ -577,3 +577,7 @@ footer {
         flex-basis: 46.25%;
     }
 }
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
+}
